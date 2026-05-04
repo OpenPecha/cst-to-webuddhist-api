@@ -3,14 +3,14 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "project_name"
+name = "cst-db-to-webuddhist-api"
 version = "0.0.1"
 authors = [
   { name="OpenPecha", email="dev@openpecha.org" },
 ]
-description = "A small example package"
+description = "Convert CST database JSON files into span-annotated JSON for the WebBuddha API"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -26,5 +26,8 @@ dev = [
 
 
 [project.urls]
-"Homepage" = "https://github.com/OpenPecha/openpecha-project-template"
-"Bug Tracker" = "https://github.com/OpenPecha/openpecha-project-template/issues"
+"Homepage" = "https://github.com/OpenPecha/cst-db-to-webuddhist-api"
+"Bug Tracker" = "https://github.com/OpenPecha/cst-db-to-webuddhist-api/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
