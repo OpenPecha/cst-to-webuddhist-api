@@ -1,8 +1,8 @@
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent / 'src' / 'cst-db-to-webuddhist-api'))
-from validate_commentary_root_segments import (  # noqa: E402
+sys.path.insert(0, str(Path(__file__).parent.parent / 'src'))
+from cst_db_to_webuddhist_api.validate_commentary_root_segments import (
     count_segment_runs,
     validate_segment_count,
 )

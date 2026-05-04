@@ -2,8 +2,13 @@ import json
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent / 'src' / 'cst-db-to-webuddhist-api'))
-from commentary_pipeline import parse_segments, calculate_spans, generate_metadata, extract_id
+sys.path.insert(0, str(Path(__file__).parent.parent / 'src'))
+from cst_db_to_webuddhist_api.commentary_pipeline import (
+    calculate_spans,
+    extract_id,
+    generate_metadata,
+    parse_segments,
+)
 
 
 def _make_seg(content, css_class='bodytext', chapter=0):

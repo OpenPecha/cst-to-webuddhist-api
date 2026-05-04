@@ -28,3 +28,6 @@ dev = [
 [project.urls]
 "Homepage" = "https://github.com/OpenPecha/cst-db-to-webuddhist-api"
 "Bug Tracker" = "https://github.com/OpenPecha/cst-db-to-webuddhist-api/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]

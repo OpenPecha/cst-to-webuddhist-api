@@ -46,23 +46,21 @@ Developers and researchers working on the WebBuddha platform or any system that 
 
 ## Instructions for use
 
-See [USAGE.md](USAGE.md) for the full step-by-step command reference.
-
 ### Quick start
 
 ```bash
 # 1. Process CST input
-python3 src/cst-db-to-webuddhist-api/commentary_pipeline.py --language pi-roman
+python3 -m cst_db_to_webuddhist_api.commentary_pipeline --language pi-roman
 
 # 2. Build alignment (requires root text JSON and manifestation ID)
-python3 src/cst-db-to-webuddhist-api/alignment_pipeline.py \
+python3 -m cst_db_to_webuddhist_api.alignment_pipeline \
   --root-path data/alignment/<root>.json \
   --commentary-path data/output/<text>.json \
   --output-path data/alignment/<text>_alignment.json \
   --target-manifestation-id MNF12345678
 
 # 3. Generate upload payload
-python3 src/cst-db-to-webuddhist-api/commentary_upload.py \
+python3 -m cst_db_to_webuddhist_api.commentary_upload \
   data/output/<text>.json data/upload/<text>.json \
   --person-id YOUR_PERSON_ID --category-id YOUR_CATEGORY_ID
 

@@ -6,9 +6,8 @@ from urllib import error
 
 import pytest
 
-
-sys.path.insert(0, str(Path(__file__).parent.parent / 'src' / 'cst-db-to-webuddhist-api'))
-from commentary_upload import (  # noqa: E402
+sys.path.insert(0, str(Path(__file__).parent.parent / 'src'))
+from cst_db_to_webuddhist_api.commentary_upload import (
     build_commentary_payload,
     parse_header_args,
     post_commentary_payload,
@@ -129,7 +128,7 @@ def test_post_commentary_payload_posts_json(monkeypatch):
         observed['timeout'] = timeout
         return _Response('{"ok": true}')
 
-    monkeypatch.setattr('commentary_upload.request.urlopen', _fake_urlopen)
+    monkeypatch.setattr('cst_db_to_webuddhist_api.commentary_upload.request.urlopen', _fake_urlopen)
 
     response = post_commentary_payload(
         'instance123',
@@ -164,7 +163,7 @@ def test_post_commentary_payload_raises_with_api_error_body(monkeypatch):
             fp=BytesIO(b'{"message":"invalid category"}'),
         )
 
-    monkeypatch.setattr('commentary_upload.request.urlopen', _fake_urlopen)
+    monkeypatch.setattr('cst_db_to_webuddhist_api.commentary_upload.request.urlopen', _fake_urlopen)
 
     with pytest.raises(RuntimeError, match='HTTP 400'):
         post_commentary_payload('instance123', payload, base_url='https://example.org/')

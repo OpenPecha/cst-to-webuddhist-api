@@ -28,8 +28,15 @@ def make_heading(cls: str, content: str) -> str:
     return f'<h3>{text}</h3>'
 
 
-def extract_id(content: str) -> int:
+def extract_id(content: str) -> int | None:
+    """Extract the leading segment ID from numbered content.
+
+    Returns the first integer in patterns like '1. text' or '1-6. text',
+    or None if the content doesn't start with a numbered pattern.
+    """
     m = NUMBERED.match(content)
+    if m is None:
+        return None
     return int(m.group(0).rstrip('.').split('-')[0])
 
 

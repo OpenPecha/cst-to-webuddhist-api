@@ -4,8 +4,8 @@ from pathlib import Path
 
 import pytest
 
-sys.path.insert(0, str(Path(__file__).parent.parent / 'src' / 'cst-db-to-webuddhist-api'))
-from alignment_pipeline import (  # noqa: E402
+sys.path.insert(0, str(Path(__file__).parent.parent / 'src'))
+from cst_db_to_webuddhist_api.alignment_pipeline import (
     assign_indices,
     build_alignment,
     merge_consecutive,
