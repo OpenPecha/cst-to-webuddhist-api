@@ -1,0 +1,1 @@
+# No third-party dependencies — commentary_pipeline.py uses stdlib only (json, re, pathlib)
