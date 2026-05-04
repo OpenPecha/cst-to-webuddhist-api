@@ -1,7 +1,10 @@
 """
-Generate <name>_grouped.json from <name>.json.
+Convert data/input/<folder>/<file>.json into two outputs:
 
-Grouping rules:
+  data/output/root/<folder>/<file>.json            – root document
+  data/output/root/<folder>/<file>_annotation.json – span annotations
+
+Grouping rules (root document):
   - bodytext + starts with number  → start a new group; strip the leading
                                      "N. " number; join following non-numbered
                                      bodytext segments with " ⤵ "
@@ -10,6 +13,12 @@ Grouping rules:
   - subsubhead / subhead           → <h2>content</h2>
   - chapter                        → <h3>content</h3>
   - centered / unindented / other  → plain content, unchanged
+
+Annotation rules:
+  - Each segment span marks the character indices of seg-content inside
+    the full content string.
+  - Every span (except the last) is extended to include the trailing
+    separator so that consecutive spans are contiguous.
 """
 
 import json
@@ -28,6 +37,10 @@ HEADING_CLASSES = H1_CLASSES | H2_CLASSES | H3_CLASSES
 
 SEPARATOR = " ⤵ "
 
+
+# ---------------------------------------------------------------------------
+# Root-document helpers
+# ---------------------------------------------------------------------------
 
 def make_heading(css: str, content: str) -> str:
     if css in H1_CLASSES:
@@ -87,12 +100,12 @@ def parse_segments(segments: list[dict]) -> list[dict]:
     return result
 
 
-def generate_metadata(data: dict) -> dict:
+def generate_metadata(data: dict, lang: str) -> dict:
     title_pali = data["title_pali"]
     return {
         "type": "root",
         "title": {"en": title_pali, "bo": title_pali},
-        "language": "pi",
+        "language": lang,
         "contributions": [{"person_id": "h6qJbs33NdZAQDdr9C3ir", "role": "author"}],
         "category_id": "iGzbJ0D6zdyccIv2gnXeI",
         "copyright": "Public domain",
@@ -100,54 +113,113 @@ def generate_metadata(data: dict) -> dict:
     }
 
 
-def process_file(input_path: Path, output_path: Path) -> None:
+def build_root_doc(data: dict, lang: str) -> dict:
+    segments     = parse_segments(data["segments"])
+    full_content = " ".join(s["seg-content"] for s in segments)
+    return {**generate_metadata(data, lang), "segments": segments, "content": full_content}
+
+
+# ---------------------------------------------------------------------------
+# Annotation helpers
+# ---------------------------------------------------------------------------
+
+def build_annotation_doc(root_doc: dict) -> dict:
+    segments = root_doc.get("segments", [])
+    content: str = root_doc.get("content", "")
+
+    annotations: list[dict] = []
+    search_from = 0
+
+    for i, seg in enumerate(segments):
+        text    = seg.get("seg-content", "")
+        is_last = i == len(segments) - 1
+        start   = content.index(text, search_from)
+        text_end = start + len(text) - 1
+
+        if is_last:
+            end = text_end
+        else:
+            next_text  = segments[i + 1].get("seg-content", "")
+            next_start = content.index(next_text, text_end + 1)
+            end = next_start - 1
+
+        annotations.append({
+            "span":       {"start": start, "end": end},
+            "segment_id": seg.get("segment_id"),
+        })
+        search_from = end + 1
+
+    return {
+        "metadata": {
+            "type":     "critical",
+            "source":   root_doc.get("source", ""),
+            "bdrc":     root_doc.get("bdrc", ""),
+            "colophon": root_doc.get("colophon", ""),
+        },
+        "annotation": annotations,
+        "content":    content,
+    }
+
+
+# ---------------------------------------------------------------------------
+# I/O
+# ---------------------------------------------------------------------------
+
+def resolve_paths(folder_name: str, file_stem: str) -> tuple[Path, Path, Path]:
+    repo_root        = Path(__file__).parents[3]
+    base             = repo_root / "data" / "output" / "root" / folder_name
+    input_path       = repo_root / "data" / "input"  / folder_name / f"{file_stem}.json"
+    root_out         = base / f"{file_stem}.json"
+    annotation_out   = base / f"{file_stem}_annotation.json"
+    return input_path, root_out, annotation_out
+
+
+def process_file(input_path: Path, root_out: Path, annotation_out: Path, lang: str) -> None:
     with input_path.open(encoding="utf-8") as f:
         data = json.load(f)
 
-    segments     = parse_segments(data["segments"])
-    full_content = " ".join(s["seg-content"] for s in segments)
+    root_doc       = build_root_doc(data, lang)
+    annotation_doc = build_annotation_doc(root_doc)
 
-    result = {**generate_metadata(data), "segments": segments, "content": full_content}
+    root_out.parent.mkdir(parents=True, exist_ok=True)
 
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
+    with root_out.open("w", encoding="utf-8") as f:
+        json.dump(root_doc, f, ensure_ascii=False, indent=2)
+    print(f"Written {len(root_doc['segments'])} segments → {root_out}")
 
-    print(f"Written {len(segments)} segments → {output_path}")
+    with annotation_out.open("w", encoding="utf-8") as f:
+        json.dump(annotation_doc, f, ensure_ascii=False, indent=2)
+    print(f"Written {len(annotation_doc['annotation'])} annotations → {annotation_out}")
 
 
-def resolve_paths(stem_arg: str, output_arg: str | None) -> tuple[Path, Path]:
-    if output_arg is not None:
-        return Path(stem_arg), Path(output_arg)
-
-    root   = Path(__file__).parents[2]
-    stem   = Path(stem_arg)
-    name   = stem.name
-    folder = stem if stem.parent == Path(".") else stem.parent
-    return root / folder / f"{name}.json", root / name / f"{name}_grouped.json"
-
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Generate <name>_grouped.json from <name>.json."
+        description=(
+            "Convert data/input/<folder>/<file>.json → "
+            "data/output/root/<folder>/<file>.json + <file>_annotation.json"
+        )
     )
     parser.add_argument(
-        "stem",
-        help=(
-            "Folder/filename stem, e.g. 'abh01m/abh01m' or just 'abh01m' "
-            "(folder name is reused as filename)."
-        ),
+        "folder_name",
+        help="Sub-folder under data/input/, e.g. 'Dhammapadapāḷi'.",
     )
     parser.add_argument(
-        "output",
-        nargs="?",
-        default=None,
-        help="Explicit output path (optional; overrides stem-derived path).",
+        "file",
+        help="JSON filename stem (without .json), e.g. 's0502m'.",
+    )
+    parser.add_argument(
+        "--lang",
+        default="pi",
+        help="Language code written into the root metadata (default: pi).",
     )
     args = parser.parse_args()
 
-    input_path, output_path = resolve_paths(args.stem, args.output)
-    process_file(input_path, output_path)
+    input_path, root_out, annotation_out = resolve_paths(args.folder_name, args.file)
+    process_file(input_path, root_out, annotation_out, args.lang)
 
 
 if __name__ == "__main__":
