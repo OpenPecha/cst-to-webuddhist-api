@@ -152,9 +152,7 @@ def build_annotation_doc(root_doc: dict) -> dict:
     return {
         "metadata": {
             "type":     "critical",
-            "source":   root_doc.get("source", ""),
-            "bdrc":     root_doc.get("bdrc", ""),
-            "colophon": root_doc.get("colophon", ""),
+            "source":   root_doc.get("source", "https://tipitaka.app/"),
         },
         "annotation": annotations,
         "content":    content,
