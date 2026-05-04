@@ -93,8 +93,8 @@ def generate_metadata(data: dict) -> dict:
         "type": "root",
         "title": {"en": title_pali, "bo": title_pali},
         "language": "pi",
-        "contributions": [{"person_id": "P12345678", "role": "author"}],
-        "category_id": "",
+        "contributions": [{"person_id": "h6qJbs33NdZAQDdr9C3ir", "role": "author"}],
+        "category_id": "iGzbJ0D6zdyccIv2gnXeI",
         "copyright": "Public domain",
         "license": "CC0",
     }
@@ -124,7 +124,7 @@ def resolve_paths(stem_arg: str, output_arg: str | None) -> tuple[Path, Path]:
     stem   = Path(stem_arg)
     name   = stem.name
     folder = stem if stem.parent == Path(".") else stem.parent
-    return root / folder / f"{name}.json", root / folder / f"{name}_grouped.json"
+    return root / folder / f"{name}.json", root / name / f"{name}_grouped.json"
 
 
 def main():
