@@ -213,7 +213,7 @@ def main():
     )
     parser.add_argument(
         "--lang",
-        default="pi",
+        default="pi-roman",
         help="Language code written into the root metadata (default: pi).",
     )
     args = parser.parse_args()
