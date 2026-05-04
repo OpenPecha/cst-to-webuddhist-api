@@ -1,0 +1,53 @@
+{
+    "type": "alignment",
+    "target_manifestation_id": "MNF12345678",
+    "target_annotation": [
+      {
+        "span": {
+          "start": 0,
+          "end": 50
+        },
+        "index": 0
+      },
+      {
+        "span": {
+          "start": 50,
+          "end": 100
+        },
+        "index": 1
+      }
+    ],
+    "alignment_annotation": [
+      {
+        "span": {
+          "start": 0,
+          "end": 30
+        },
+        "index": 0,
+        "alignment_index": [
+          0
+        ]
+      },
+      {
+        "span": {
+          "start": 30,
+          "end": 60
+        },
+        "index": 1,
+        "alignment_index": [
+          0,
+          1
+        ]
+      },
+      {
+        "span": {
+          "start": 60,
+          "end": 100
+        },
+        "index": 2,
+        "alignment_index": [
+          1
+        ]
+      }
+    ]
+  }
