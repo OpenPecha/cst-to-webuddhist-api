@@ -9,6 +9,12 @@ Grouping rules (root document):
                                      "N. " number; join following non-numbered
                                      bodytext segments with " ⤵ "
   - bodytext (no leading number)   → append to current group, or standalone
+  - hangnum                        → start a new gatha group; its number
+                                     becomes the segment_id for the group
+  - gatha1/gatha2/gatha3/gatha4   → append to current gatha group
+  - gathalast                      → append to current gatha group, then flush
+                                     the whole stanza as one entry (joined with
+                                     " ⤵ "); segment_id taken from hangnum
   - nikaya / book / title          → <h1>content</h1>
   - subsubhead / subhead           → <h2>content</h2>
   - chapter                        → <h3>content</h3>
@@ -29,7 +35,7 @@ from pathlib import Path
 NUMBERED     = re.compile(r"^\d+\.")
 STRIP_NUMBER = re.compile(r"^\d+\.\s*")
 CAPTURE_NUM  = re.compile(r"^(\d+)\.")
-
+GATHA_CLASSES = {'gatha1', 'gatha2', 'gatha3','gatha4', 'gathalast'}
 H1_CLASSES = {"nikaya", "book", "title"}
 H2_CLASSES = {"subsubhead", "subhead"}
 H3_CLASSES = {"chapter"}
@@ -61,6 +67,11 @@ def parse_segments(segments: list[dict]) -> list[dict]:
     group_id     : int | None       = None
     group_chapter: int | None       = None
 
+    # pending gatha state
+    gatha_parts  : list[str] | None = None
+    gatha_id     : int | None       = None
+    gatha_chapter: int | None       = None
+
     def flush():
         nonlocal group_parts, group_id
         if group_parts is not None:
@@ -72,6 +83,18 @@ def parse_segments(segments: list[dict]) -> list[dict]:
             group_parts = None
             group_id    = None
 
+    def flush_gatha():
+        nonlocal gatha_parts, gatha_id, gatha_chapter
+        if gatha_parts is not None:
+            result.append({
+                "seg-content": SEPARATOR.join(gatha_parts),
+                "segment_id":  gatha_id,
+                "chapter":     gatha_chapter,
+            })
+            gatha_parts   = None
+            gatha_id      = None
+            gatha_chapter = None
+
     for seg in segments:
         css     = seg.get("css_class", "")
         content = seg["content"]
@@ -79,9 +102,11 @@ def parse_segments(segments: list[dict]) -> list[dict]:
 
         if css in HEADING_CLASSES:
             flush()
+            flush_gatha()
             result.append({"seg-content": make_heading(css, content), "segment_id": None, "chapter": chapter})
 
         elif css == "bodytext":
+            flush_gatha()
             if NUMBERED.match(content):
                 flush()
                 group_chapter = chapter
@@ -92,11 +117,28 @@ def parse_segments(segments: list[dict]) -> list[dict]:
             else:
                 result.append({"seg-content": content, "segment_id": None, "chapter": chapter})
 
+        elif css == "hangnum":
+            flush()
+            flush_gatha()
+            gatha_id      = extract_segment_id(content)
+            gatha_chapter = chapter
+            gatha_parts   = []
+
+        elif css in GATHA_CLASSES:
+            if gatha_parts is None:
+                gatha_parts   = []
+                gatha_chapter = chapter
+            gatha_parts.append(content)
+            if css == "gathalast":
+                flush_gatha()
+
         else:
             flush()
+            flush_gatha()
             result.append({"seg-content": content, "segment_id": None, "chapter": chapter})
 
     flush()
+    flush_gatha()
     return result
 
 
@@ -104,7 +146,7 @@ def generate_metadata(data: dict, lang: str) -> dict:
     title_pali = data["title_pali"]
     return {
         "type": "root",
-        "title": {"en": title_pali, "bo": title_pali},
+        "title": {"en": title_pali, f"{lang}": title_pali},
         "language": lang,
         "contributions": [{"person_id": "h6qJbs33NdZAQDdr9C3ir", "role": "author"}],
         "category_id": "iGzbJ0D6zdyccIv2gnXeI",
@@ -211,7 +253,6 @@ def main():
     )
     parser.add_argument(
         "--lang",
-        default="pi-roman",
         help="Language code written into the root metadata (default: pi).",
     )
     args = parser.parse_args()
