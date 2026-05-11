@@ -54,25 +54,18 @@ def extract_id_list(content: str) -> list[int]:
 def parse_segments(segments: list[dict]) -> list[dict]:
     result: list[dict] = []
     current_ids: list[int] = []
-    seen_chapter = False
 
     for seg in segments:
         cls = seg['css_class']
         content = seg['content']
 
         if cls in HEADING_CLASSES:
-            if cls in H3_CLASSES:
-                seen_chapter = True
             current_ids = []
             result.append({'content': make_heading(cls, content), 'segment_id': []})
 
         elif cls == 'centered':
             current_ids = []
             result.append({'content': content, 'segment_id': []})
-
-        elif cls == 'hangnum':
-            if seen_chapter:
-                current_ids = extract_id_list(content)
 
         elif cls in GATHA_CLASSES:
             result.append({'content': content, 'segment_id': list(current_ids)})
