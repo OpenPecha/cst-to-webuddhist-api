@@ -1,0 +1,926 @@
+{
+  "type": "alignment",
+  "target_manifestation_id": "o3mJ9TmToy9iK5CEHnerc",
+  "target_annotation": [
+    {
+      "span": {
+        "start": 136,
+        "end": 573
+      },
+      "index": 0
+    },
+    {
+      "span": {
+        "start": 603,
+        "end": 989
+      },
+      "index": 1
+    },
+    {
+      "span": {
+        "start": 1018,
+        "end": 1082
+      },
+      "index": 2
+    },
+    {
+      "span": {
+        "start": 1110,
+        "end": 1129
+      },
+      "index": 3
+    },
+    {
+      "span": {
+        "start": 1155,
+        "end": 1199
+      },
+      "index": 4
+    },
+    {
+      "span": {
+        "start": 1282,
+        "end": 1506
+      },
+      "index": 5
+    },
+    {
+      "span": {
+        "start": 5235,
+        "end": 5465
+      },
+      "index": 6
+    },
+    {
+      "span": {
+        "start": 9712,
+        "end": 9955
+      },
+      "index": 7
+    },
+    {
+      "span": {
+        "start": 11927,
+        "end": 12157
+      },
+      "index": 8
+    },
+    {
+      "span": {
+        "start": 14716,
+        "end": 14863
+      },
+      "index": 9
+    },
+    {
+      "span": {
+        "start": 16015,
+        "end": 16167
+      },
+      "index": 10
+    },
+    {
+      "span": {
+        "start": 16517,
+        "end": 16710
+      },
+      "index": 11
+    },
+    {
+      "span": {
+        "start": 16931,
+        "end": 17073
+      },
+      "index": 12
+    },
+    {
+      "span": {
+        "start": 17669,
+        "end": 17921
+      },
+      "index": 13
+    },
+    {
+      "span": {
+        "start": 37306,
+        "end": 37634
+      },
+      "index": 14
+    },
+    {
+      "span": {
+        "start": 37635,
+        "end": 38000
+      },
+      "index": 15
+    },
+    {
+      "span": {
+        "start": 38001,
+        "end": 38328
+      },
+      "index": 16
+    },
+    {
+      "span": {
+        "start": 38329,
+        "end": 38532
+      },
+      "index": 17
+    },
+    {
+      "span": {
+        "start": 38533,
+        "end": 38751
+      },
+      "index": 18
+    },
+    {
+      "span": {
+        "start": 38752,
+        "end": 38949
+      },
+      "index": 19
+    },
+    {
+      "span": {
+        "start": 38950,
+        "end": 39136
+      },
+      "index": 20
+    },
+    {
+      "span": {
+        "start": 39305,
+        "end": 39589
+      },
+      "index": 21
+    },
+    {
+      "span": {
+        "start": 39699,
+        "end": 40076
+      },
+      "index": 22
+    },
+    {
+      "span": {
+        "start": 40077,
+        "end": 40251
+      },
+      "index": 23
+    },
+    {
+      "span": {
+        "start": 40252,
+        "end": 40455
+      },
+      "index": 24
+    },
+    {
+      "span": {
+        "start": 40456,
+        "end": 41293
+      },
+      "index": 25
+    },
+    {
+      "span": {
+        "start": 41294,
+        "end": 41546
+      },
+      "index": 26
+    },
+    {
+      "span": {
+        "start": 41547,
+        "end": 42259
+      },
+      "index": 27
+    },
+    {
+      "span": {
+        "start": 44526,
+        "end": 44892
+      },
+      "index": 28
+    },
+    {
+      "span": {
+        "start": 46836,
+        "end": 47187
+      },
+      "index": 29
+    },
+    {
+      "span": {
+        "start": 47459,
+        "end": 47808
+      },
+      "index": 30
+    },
+    {
+      "span": {
+        "start": 47809,
+        "end": 48103
+      },
+      "index": 31
+    },
+    {
+      "span": {
+        "start": 60644,
+        "end": 60850
+      },
+      "index": 32
+    },
+    {
+      "span": {
+        "start": 60851,
+        "end": 61126
+      },
+      "index": 33
+    },
+    {
+      "span": {
+        "start": 61362,
+        "end": 61553
+      },
+      "index": 34
+    },
+    {
+      "span": {
+        "start": 61971,
+        "end": 62221
+      },
+      "index": 35
+    },
+    {
+      "span": {
+        "start": 62242,
+        "end": 62518
+      },
+      "index": 36
+    },
+    {
+      "span": {
+        "start": 62963,
+        "end": 63259
+      },
+      "index": 37
+    },
+    {
+      "span": {
+        "start": 64962,
+        "end": 65081
+      },
+      "index": 38
+    },
+    {
+      "span": {
+        "start": 67553,
+        "end": 67810
+      },
+      "index": 39
+    },
+    {
+      "span": {
+        "start": 67829,
+        "end": 68054
+      },
+      "index": 40
+    },
+    {
+      "span": {
+        "start": 68055,
+        "end": 68331
+      },
+      "index": 41
+    },
+    {
+      "span": {
+        "start": 68944,
+        "end": 69115
+      },
+      "index": 42
+    },
+    {
+      "span": {
+        "start": 70834,
+        "end": 71005
+      },
+      "index": 43
+    },
+    {
+      "span": {
+        "start": 71330,
+        "end": 71459
+      },
+      "index": 44
+    },
+    {
+      "span": {
+        "start": 79227,
+        "end": 79596
+      },
+      "index": 45
+    },
+    {
+      "span": {
+        "start": 79995,
+        "end": 80146
+      },
+      "index": 46
+    },
+    {
+      "span": {
+        "start": 82270,
+        "end": 82385
+      },
+      "index": 47
+    },
+    {
+      "span": {
+        "start": 83020,
+        "end": 83334
+      },
+      "index": 48
+    },
+    {
+      "span": {
+        "start": 91905,
+        "end": 92162
+      },
+      "index": 49
+    },
+    {
+      "span": {
+        "start": 107660,
+        "end": 108112
+      },
+      "index": 50
+    },
+    {
+      "span": {
+        "start": 112240,
+        "end": 112546
+      },
+      "index": 51
+    },
+    {
+      "span": {
+        "start": 120953,
+        "end": 121337
+      },
+      "index": 52
+    },
+    {
+      "span": {
+        "start": 127978,
+        "end": 128227
+      },
+      "index": 53
+    }
+  ],
+  "alignment_annotation": [
+    {
+      "span": {
+        "start": 368,
+        "end": 893
+      },
+      "index": 0,
+      "alignment_index": [
+        0
+      ]
+    },
+    {
+      "span": {
+        "start": 928,
+        "end": 1312
+      },
+      "index": 1,
+      "alignment_index": [
+        1
+      ]
+    },
+    {
+      "span": {
+        "start": 1346,
+        "end": 1758
+      },
+      "index": 2,
+      "alignment_index": [
+        2
+      ]
+    },
+    {
+      "span": {
+        "start": 1791,
+        "end": 2079
+      },
+      "index": 3,
+      "alignment_index": [
+        3
+      ]
+    },
+    {
+      "span": {
+        "start": 2110,
+        "end": 4149
+      },
+      "index": 4,
+      "alignment_index": [
+        4
+      ]
+    },
+    {
+      "span": {
+        "start": 4267,
+        "end": 6127
+      },
+      "index": 5,
+      "alignment_index": [
+        5
+      ]
+    },
+    {
+      "span": {
+        "start": 6159,
+        "end": 7044
+      },
+      "index": 6,
+      "alignment_index": [
+        6
+      ]
+    },
+    {
+      "span": {
+        "start": 7045,
+        "end": 7206
+      },
+      "index": 7,
+      "alignment_index": [
+        7
+      ]
+    },
+    {
+      "span": {
+        "start": 7207,
+        "end": 7434
+      },
+      "index": 8,
+      "alignment_index": [
+        8
+      ]
+    },
+    {
+      "span": {
+        "start": 7469,
+        "end": 8370
+      },
+      "index": 9,
+      "alignment_index": [
+        9
+      ]
+    },
+    {
+      "span": {
+        "start": 8371,
+        "end": 8791
+      },
+      "index": 10,
+      "alignment_index": [
+        10
+      ]
+    },
+    {
+      "span": {
+        "start": 8792,
+        "end": 9054
+      },
+      "index": 11,
+      "alignment_index": [
+        11
+      ]
+    },
+    {
+      "span": {
+        "start": 9055,
+        "end": 9490
+      },
+      "index": 12,
+      "alignment_index": [
+        12
+      ]
+    },
+    {
+      "span": {
+        "start": 9517,
+        "end": 10174
+      },
+      "index": 13,
+      "alignment_index": [
+        13
+      ]
+    },
+    {
+      "span": {
+        "start": 10256,
+        "end": 12357
+      },
+      "index": 14,
+      "alignment_index": [
+        14
+      ]
+    },
+    {
+      "span": {
+        "start": 12358,
+        "end": 12787
+      },
+      "index": 15,
+      "alignment_index": [
+        15
+      ]
+    },
+    {
+      "span": {
+        "start": 12788,
+        "end": 12977
+      },
+      "index": 16,
+      "alignment_index": [
+        16
+      ]
+    },
+    {
+      "span": {
+        "start": 12978,
+        "end": 13287
+      },
+      "index": 17,
+      "alignment_index": [
+        17
+      ]
+    },
+    {
+      "span": {
+        "start": 13288,
+        "end": 13479
+      },
+      "index": 18,
+      "alignment_index": [
+        18
+      ]
+    },
+    {
+      "span": {
+        "start": 13480,
+        "end": 14144
+      },
+      "index": 19,
+      "alignment_index": [
+        19
+      ]
+    },
+    {
+      "span": {
+        "start": 14145,
+        "end": 14262
+      },
+      "index": 20,
+      "alignment_index": [
+        20
+      ]
+    },
+    {
+      "span": {
+        "start": 14263,
+        "end": 14468
+      },
+      "index": 21,
+      "alignment_index": [
+        21
+      ]
+    },
+    {
+      "span": {
+        "start": 14557,
+        "end": 16580
+      },
+      "index": 22,
+      "alignment_index": [
+        22
+      ]
+    },
+    {
+      "span": {
+        "start": 16581,
+        "end": 16708
+      },
+      "index": 23,
+      "alignment_index": [
+        23
+      ]
+    },
+    {
+      "span": {
+        "start": 16709,
+        "end": 17027
+      },
+      "index": 24,
+      "alignment_index": [
+        24
+      ]
+    },
+    {
+      "span": {
+        "start": 17028,
+        "end": 17296
+      },
+      "index": 25,
+      "alignment_index": [
+        25
+      ]
+    },
+    {
+      "span": {
+        "start": 17297,
+        "end": 17535
+      },
+      "index": 26,
+      "alignment_index": [
+        26
+      ]
+    },
+    {
+      "span": {
+        "start": 17536,
+        "end": 17775
+      },
+      "index": 27,
+      "alignment_index": [
+        27
+      ]
+    },
+    {
+      "span": {
+        "start": 17865,
+        "end": 19225
+      },
+      "index": 28,
+      "alignment_index": [
+        28
+      ]
+    },
+    {
+      "span": {
+        "start": 19315,
+        "end": 21511
+      },
+      "index": 29,
+      "alignment_index": [
+        29
+      ]
+    },
+    {
+      "span": {
+        "start": 21512,
+        "end": 21601
+      },
+      "index": 30,
+      "alignment_index": [
+        30
+      ]
+    },
+    {
+      "span": {
+        "start": 21602,
+        "end": 21803
+      },
+      "index": 31,
+      "alignment_index": [
+        31
+      ]
+    },
+    {
+      "span": {
+        "start": 21891,
+        "end": 23878
+      },
+      "index": 32,
+      "alignment_index": [
+        32
+      ]
+    },
+    {
+      "span": {
+        "start": 23879,
+        "end": 24183
+      },
+      "index": 33,
+      "alignment_index": [
+        33
+      ]
+    },
+    {
+      "span": {
+        "start": 24184,
+        "end": 24517
+      },
+      "index": 34,
+      "alignment_index": [
+        34
+      ]
+    },
+    {
+      "span": {
+        "start": 24518,
+        "end": 24644
+      },
+      "index": 35,
+      "alignment_index": [
+        35
+      ]
+    },
+    {
+      "span": {
+        "start": 24645,
+        "end": 24929
+      },
+      "index": 36,
+      "alignment_index": [
+        36
+      ]
+    },
+    {
+      "span": {
+        "start": 24930,
+        "end": 25082
+      },
+      "index": 37,
+      "alignment_index": [
+        37
+      ]
+    },
+    {
+      "span": {
+        "start": 25083,
+        "end": 25255
+      },
+      "index": 38,
+      "alignment_index": [
+        38
+      ]
+    },
+    {
+      "span": {
+        "start": 25256,
+        "end": 25390
+      },
+      "index": 39,
+      "alignment_index": [
+        39
+      ]
+    },
+    {
+      "span": {
+        "start": 25391,
+        "end": 25469
+      },
+      "index": 40,
+      "alignment_index": [
+        40
+      ]
+    },
+    {
+      "span": {
+        "start": 25470,
+        "end": 25658
+      },
+      "index": 41,
+      "alignment_index": [
+        41
+      ]
+    },
+    {
+      "span": {
+        "start": 25659,
+        "end": 26362
+      },
+      "index": 42,
+      "alignment_index": [
+        42
+      ]
+    },
+    {
+      "span": {
+        "start": 26363,
+        "end": 26643
+      },
+      "index": 43,
+      "alignment_index": [
+        43
+      ]
+    },
+    {
+      "span": {
+        "start": 26644,
+        "end": 26984
+      },
+      "index": 44,
+      "alignment_index": [
+        44
+      ]
+    },
+    {
+      "span": {
+        "start": 27072,
+        "end": 28378
+      },
+      "index": 45,
+      "alignment_index": [
+        45
+      ]
+    },
+    {
+      "span": {
+        "start": 28379,
+        "end": 28551
+      },
+      "index": 46,
+      "alignment_index": [
+        46
+      ]
+    },
+    {
+      "span": {
+        "start": 28643,
+        "end": 29050
+      },
+      "index": 47,
+      "alignment_index": [
+        47
+      ]
+    },
+    {
+      "span": {
+        "start": 29141,
+        "end": 30382
+      },
+      "index": 48,
+      "alignment_index": [
+        48
+      ]
+    },
+    {
+      "span": {
+        "start": 30473,
+        "end": 31112
+      },
+      "index": 49,
+      "alignment_index": [
+        49
+      ]
+    },
+    {
+      "span": {
+        "start": 31215,
+        "end": 32126
+      },
+      "index": 50,
+      "alignment_index": [
+        50
+      ]
+    },
+    {
+      "span": {
+        "start": 32237,
+        "end": 32843
+      },
+      "index": 51,
+      "alignment_index": [
+        51
+      ]
+    },
+    {
+      "span": {
+        "start": 32954,
+        "end": 33909
+      },
+      "index": 52,
+      "alignment_index": [
+        52
+      ]
+    },
+    {
+      "span": {
+        "start": 34021,
+        "end": 34815
+      },
+      "index": 53,
+      "alignment_index": [
+        53
+      ]
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "source_commentary": "data/output/ Dhātukathāpāḷi/abh03a_dhatukatha-atthakatha.json",
+  "source_alignment": "data/alignment/ Dhātukathāpāḷi/abh03a_dhatukatha-atthakatha.json",
+  "source_root": "data/output/root/ Dhātukathāpāḷi/abh03m1_annotation.json",
+  "n_sampled": 20,
+  "seed": 42,
+  "samples": [
+    {
+      "sample_number": 1,
+      "alignment_entry_index": 1,
+      "alignment_indices": [
+        1
+      ],
+      "commentary_span": {
+        "start": 928,
+        "end": 1312
+      },
+      "commentary_text": " Pañcakkhandhā…pe… manasikāroti ayaṃ pañcavīsādhikena padasatena nikkhittā abbhantaramātikā nāma. Ayañhi \"sabbāpi dhammasaṅgaṇī dhātukathāya mātikā\"ti evaṃ avatvā saṅgahādinā nayena vibhajitabbe khandhādidhamme sarūpato dassetvā dhātukathāya abbhantareyeva ṭhapitattā abbhantaramātikāti vuccati. Khandhādipadānaṃ dhammasaṅgaṇīmātikāya asaṅgahitattā pakiṇṇakamātikātipi vattuṃ vaṭṭati.",
+      "root_segments": [
+        {
+          "index": 1,
+          "span": {
+            "start": 603,
+            "end": 989
+          },
+          "root_text": "(1) Pañcakkhandhā (2) dvādasāyatanāni (3) aṭṭhārasa dhātuyo (4) cattāri saccāni (5) bāvīsatindriyāni (6) paṭiccasamuppādo (7) cattāro satipaṭṭhānā (8)cattāro sammappadhānā (9) cattāro iddhipādā (10) cattāri jhānāni (11) catasso appamaññāyo (12) pañcindriyāni (13) pañca balāni (14) satta bojjhaṅgā (15)ariyo aṭṭhaṅgiko maggo (16) phasso vedanā saññā cetanā cittaṃ adhimokkho manasikāro."
+        }
+      ]
+    },
+    {
+      "sample_number": 2,
+      "alignment_entry_index": 2,
+      "alignment_indices": [
+        2
+      ],
+      "commentary_span": {
+        "start": 1346,
+        "end": 1758
+      },
+      "commentary_text": " Tīhi saṅgaho, tīhi asaṅgaho; catūhi sampayogo, catūhi vippayogoti ayaṃ catūhi padehi nikkhittā nayamukhamātikā nāma. Ayañhi sabbesupi pañcakkhandhādīsu ceva kusalattikādīsu ca mātikādhammesu, tīhi khandhāyatanadhātupadeheva saṅgaho ca asaṅgaho ca yojetabbo. Tathā catūhi arūpakkhandhehi sampayogo ca vippayogo ca. Etāni imesaṃ saṅgahāsaṅgahādīnaṃ nayānaṃ mukhānīti dassetuṃ ṭhapitattā nayamukhamātikāti vuccati.",
+      "root_segments": [
+        {
+          "index": 2,
+          "span": {
+            "start": 1018,
+            "end": 1082
+          },
+          "root_text": "Tīhi saṅgaho, tīhi asaṅgaho, catūhi sampayogo, catūhi vippayogo."
+        }
+      ]
+    },
+    {
+      "sample_number": 3,
+      "alignment_entry_index": 5,
+      "alignment_indices": [
+        5
+      ],
+      "commentary_span": {
+        "start": 4267,
+        "end": 6127
+      },
+      "commentary_text": " Idāni pañcakkhandhādivasena nikkhittamātikaṃ ‘saṅgaho asaṅgaho’tiādīhi nayamātikāpadehi saddhiṃ yojetvā dassetuṃ rūpakkhandho katihi khandhehītiādinā nayena niddesavāro āraddho. Tattha yasmā \"saṅgaho asaṅgahotiādikāya nayamātikāya \"tīhi saṅgaho, tīhi asaṅgaho\"ti nayamukhamātikā ṭhapitā, tasmā rūpakkhandhādīnaṃ saṅgahaṃ dassetuṃ katihi khandhehi katihāyatanehi katihi dhātūhīti tīṇi khandhāyatanadhātupadāneva uddhaṭāni. ‘Cattāri saccānī’tiādīsu ekampi na parāmaṭṭhaṃ. Yasmā ca \"sabhāgo visabhāgo\"ti evaṃ lakkhaṇamātikā ṭhapitā, tasmā imassa pañhassa vissajjane rūpakkhandho ekena khandhenātiādi vuttaṃ. Sabhāgā hi tassa ete khandhādayoti. Tattha ekena khandhenāti rūpakkhandheneva. Yañhi kiñci rūpaṃ rūpakkhandhasabhāgattā rūpakkhandhotveva saṅgahaṃ gacchatīti rūpakkhandheneva gaṇitaṃ, taṃ rūpakkhandheneva paricchinnaṃ. Ekādasahāyatanehīti manāyatanavajjehi. Sabbopi hi rūpakkhandho dasāyatanāni dhammāyatanekadeso ca hoti, tasmā ekādasahāyatanehi gaṇito , paricchinno. Ekādasahi dhātūhīti sattaviññāṇadhātuvajjāhi ekādasahi etāsu hi apariyāpannaṃ rūpaṃ nāma natthi.\nAsaṅgahanayaniddese katihi asaṅgahitoti saṅkhepeneva pucchā katā. Vissajjane panassa yasmā rūpakkhandhassa visabhāgā cattāro arūpakkhandhā, ekaṃ manāyatanaṃ, satta viññāṇadhātuyo; tasmā catūhi khandhehītiādi vuttaṃ. Iminā nayena sabbapadesu saṅgahāsaṅgaho veditabbo. Imasmiṃ pana khandhaniddese – \"rūpakkhandho katihi khandhehī\"tiādimhi tāva ekamūlake saṅgahanaye sarūpeneva dassitā pañca pucchā, pañca vissajjanāni. Asaṅgahanaye saṅkhepena dassitā pañca pucchā, pañca vissajjanāni. Iminā upāyena dukamūlakādīsupi pucchāvissajjanāni veditabbāni. Rūpakkhandhamūlakāyeva cettha dukatikacatukkā dassitā. Pañcake pana \"rūpakkhandho ca…pe… viññāṇakkhandho cā\"ti evaṃ bhedato ca, \"pañcakkhandhā katihi khandhehī\"ti evaṃ abhedato cāti dvidhā pucchāvissajjanāni katāni. Evaṃ pāḷinayo veditabboti.",
+      "root_segments": [
+        {
+          "index": 5,
+          "span": {
+            "start": 1282,
+            "end": 1506
+          },
+          "root_text": "Rūpakkhandho katihi khandhehi katihāyatanehi katihi dhātūhi saṅgahito? Rūpakkhandho ekena khandhena ekādasahāyatanehi ekādasahi dhātūhi saṅgahito. Katihi asaṅgahito? Catūhi khandhehi ekenāyatanena sattahi dhātūhi asaṅgahito."
+        }
+      ]
+    },
+    {
+      "sample_number": 4,
+      "alignment_entry_index": 6,
+      "alignment_indices": [
+        6
+      ],
+      "commentary_span": {
+        "start": 6159,
+        "end": 7044
+      },
+      "commentary_text": " Āyatanapadaniddesādīsu āyatanapadaniddese tāva cakkhāyatanaṃ ekena khandhenāti ekena rūpakkhandheneva, ekena cakkhāyataneneva ekāya cakkhudhātuyāva saṅgahitanti veditabbaṃ. Sotāyatanādīsupi imināva nayena saṅgahāsaṅgaho veditabbo. Asaṅkhataṃ khandhato ṭhapetvāti ettha pana yasmā asaṅkhataṃ dhammāyatanaṃ nāma nibbānaṃ, tañca khandhasaṅgahaṃ na gacchati; tasmā ‘khandhato ṭhapetvā’ti vuttaṃ. Catūhi khandhehīti rūpavedanāsaññāsaṅkhārakkhandhehi. Nibbānavajjañhi dhammāyatanaṃ etehi saṅgahitaṃ. Viññāṇakkhandhena pana ṭhapetvā dhammāyatanadhammadhātuyo sesāyatanadhātūhi ca taṃ na saṅgayhati. Tena vuttaṃ – \"ekena khandhena, ekādasahāyatanehi, sattarasahi dhātūhi asaṅgahita\"nti. Yathā ca te heṭṭhā rūpakkhandhamūlakā, evamidhāpi cakkhāyatanamūlakāva nayā veditabbā. Dukamattameva pana pāḷiyaṃ dassetvā \"dvādasāyatanānī\"ti abhedatova pucchāvissajjanaṃ kataṃ. Dhātuniddesepi eseva nayo.",
+      "root_segments": [
+        {
+          "index": 6,
+          "span": {
+            "start": 5235,
+            "end": 5465
+          },
+          "root_text": "Cakkhāyatanaṃ katihi khandhehi katihāyatanehi katihi dhātūhi saṅgahitaṃ? Cakkhāyatanaṃ ekena khandhena ekenāyatanena ekāya dhātuyā saṅgahitaṃ. Katihi asaṅgahitaṃ? Catūhi khandhehi ekādasahāyatanehi sattarasahi dhātūhi asaṅgahitaṃ."
+        }
+      ]
+    },
+    {
+      "sample_number": 5,
+      "alignment_entry_index": 7,
+      "alignment_indices": [
+        7
+      ],
+      "commentary_span": {
+        "start": 7045,
+        "end": 7206
+      },
+      "commentary_text": " Saccaniddese – sabbepi dukatikacatukkā pāḷiyaṃ dassitā. Yasmā ca dukatikesu samudayasaccasadisameva maggasaccepi vissajjanaṃ, tasmā taṃ samudayānantaraṃ vuttaṃ.",
+      "root_segments": [
+        {
+          "index": 7,
+          "span": {
+            "start": 9712,
+            "end": 9955
+          },
+          "root_text": "Dukkhasaccaṃ katihi khandhehi katihāyatanehi katihi dhātūhi saṅgahitaṃ? Dukkhasaccaṃ pañcahi khandhehi dvādasahāyatanehi aṭṭhārasahi dhātūhi saṅgahitaṃ. Katihi asaṅgahitaṃ? Na kehici khandhehi na kehici āyatanehi na kāhici dhātūhi asaṅgahitaṃ."
+        }
+      ]
+    },
+    {
+      "sample_number": 6,
+      "alignment_entry_index": 8,
+      "alignment_indices": [
+        8
+      ],
+      "commentary_span": {
+        "start": 7207,
+        "end": 7434
+      },
+      "commentary_text": " Indriyaniddese – jīvitindriyaṃ dvīhi khandhehīti rūpajīvitindriyaṃ rūpakkhandhena, arūpajīvitindriyaṃ saṅkhārakkhandhena saṅgahitaṃ. Sesaṃ vuttanayānusāreneva veditabbaṃ. Pāḷivavatthānaṃ panettha āyatanadhātuniddesasadisameva.",
+      "root_segments": [
+        {
+          "index": 8,
+          "span": {
+            "start": 11927,
+            "end": 12157
+          },
+          "root_text": "Cakkhundriyaṃ katihi khandhehi katihāyatanehi katihi dhātūhi saṅgahitaṃ? Cakkhundriyaṃ ekena khandhena ekenāyatanena ekāya dhātuyā saṅgahitaṃ. Katihi asaṅgahitaṃ? Catūhi khandhehi ekādasahāyatanehi sattarasahi dhātūhi asaṅgahitaṃ."
+        }
+      ]
+    },
+    {
+      "sample_number": 7,
+      "alignment_entry_index": 13,
+      "alignment_indices": [
+        13
+      ],
+      "commentary_span": {
+        "start": 9517,
+        "end": 10174
+      },
+      "commentary_text": " Evaṃ abbhantaramātikāya saṅgahaṃ dassetvā idāni bāhiramātikāya saṅgahaṃ dassetuṃ kusalā dhammātiādi āraddhaṃ. Tattha vedanāttike tīhi dhātūhīti kāyaviññāṇamanoviññāṇadhammadhātūhi. Sattahi dhātūhīti cakkhusotaghānajivhāviññāṇadhātūhi ceva manodhātudhammadhātumanoviññāṇadhātūhi ca. Vipākattike aṭṭhahi dhātūhīti kāyaviññāṇadhātuyā saddhiṃ tāhiyeva. Vipākadhammadhammā pana saṃkiliṭṭhasaṃkilesikehi saddhiṃ sadisavissajjanattā ekato gahitā. Yathā cete, evaṃ sabbatikadukapadesu yaṃ yaṃ padaṃ yena yena padena saddhiṃ sadisavissajjanaṃ hoti, taṃ taṃ uppaṭipāṭiyāpi tena tena saddhiṃ gahetvā vissajjitaṃ. Tattha vuttānusāreneva saṅgahāsaṅgahanayo veditabboti.",
+      "root_segments": [
+        {
+          "index": 13,
+          "span": {
+            "start": 17669,
+            "end": 17921
+          },
+          "root_text": "Kusalā dhammā… akusalā dhammā katihi khandhehi katihāyatanehi katihi dhātūhi saṅgahitā? Kusalā dhammā… akusalā dhammā catūhi khandhehi dvīhāyatanehi dvīhi dhātūhi saṅgahitā. Katihi asaṅgahitā? Ekena khandhena dasahāyatanehi soḷasahi dhātūhi asaṅgahitā."
+        }
+      ]
+    },
+    {
+      "sample_number": 8,
+      "alignment_entry_index": 14,
+      "alignment_indices": [
+        14
+      ],
+      "commentary_span": {
+        "start": 10256,
+        "end": 12357
+      },
+      "commentary_text": " Idāni saṅgahitena asaṅgahitapadaṃ bhājetuṃ cakkhāyatanenātiādi āraddhaṃ. Tatridaṃ lakkhaṇaṃ – imasmiñhi vāre yaṃ khandhapadena saṅgahitaṃ hutvā āyatanadhātupadehi asaṅgahitaṃ, khandhāyatanapadehi vā saṅgahitaṃ hutvā dhātupadena asaṅgahitaṃ, tassa khandhādīhi asaṅgahaṃ pucchitvā vissajjanaṃ kataṃ. Taṃ pana rūpakkhandhādīsu na yujjati. Rūpakkhandhena hi rūpakkhandhova saṅgahito. So ca aḍḍhekādasahi āyatanadhātūhi asaṅgahito nāma natthi. Vedanākkhandhena ca vedanākkhandhova saṅgahito. Sopi dhammāyatanadhammadhātūhi asaṅgahito nāma natthi. Evaṃ asaṅgahitatāya abhāvato etāni aññāni ca evarūpāni manāyatanadhammāyatanādīni padāni imasmiṃ vāre na gahitāni. Yāni pana padāni rūpekadesaṃ arūpena asammissaṃ, viññāṇekadesañca aññena asammissaṃ dīpenti, tāni idha gahitāni. Pariyosāne ca –\n\"Dasāyatanā sattarasa dhātuyo,\nSattindriyā asaññābhavo ekavokārabhavo;\nParidevo sanidassanasappaṭighaṃ,\nAnidassanaṃ punadeva sappaṭighaṃ upādā\"ti.\nEvaṃ uddānagāthāya dassitāneva. Tasmā tesaṃ vaseneva saṅgahāsaṅgaho veditabbo. Pañhavasena hi imasmiṃ vāre āyatanadhātuvaseneva sadisavissajjane vīsati dhamme samodhānetvā eko pañho kato, satta viññāṇadhātuyo samodhānetvā eko, sattindriyāni samodhānetvā eko, dve bhave samodhānetvā eko, paridevena ca sanidassanasappaṭighehi ca eko, anidassanasappaṭighehi eko, sanidassanehi eko, sappaṭighehi ca upādādhammehi ca ekoti aṭṭha pañhā katā. Tesu khandhādivibhāgo evaṃ veditabbo seyyathidaṃ – paṭhamapañhe tāva catūhi khandhehīti arūpakkhandhehi, dvīhāyatanehīti cakkhāyatanādīsu ekekena saddhiṃ manāyatanena, aṭṭhahi dhātūhīti cakkhudhātuādīsu ekekāya saddhiṃ sattahi viññāṇadhātūhi.\nTatrāyaṃ nayo – cakkhāyatanena hi khandhasaṅgahena rūpakkhandho saṅgahito. Tasmiṃ saṅgahite rūpakkhandhe āyatanasaṅgahena cakkhāyatanamevekaṃ saṅgahitaṃ. Sesāni dasa āyatanāni asaṅgahitāni. Dhātusaṅgahenapi tena cakkhudhātuyevekā saṅgahitā. Sesā dasa dhātuyo asaṅgahitā. Iti yāni tena asaṅgahitāni dasāyatanāni, tāni cakkhāyatanamanāyatanehi dvīhi asaṅgahitāni. Yāpi tena asaṅgahitā dasa dhātuyo, tā cakkhudhātuyā ceva sattahi ca viññāṇadhātūhi asaṅgahitāti. Rūpāyatanādīsupi eseva nayo.",
+      "root_segments": [
+        {
+          "index": 14,
+          "span": {
+            "start": 37306,
+            "end": 37634
+          },
+          "root_text": "Cakkhāyatanena ye dhammā… phoṭṭhabbāyatanena ye dhammā… cakkhudhātuyā ye dhammā… phoṭṭhabbadhātuyā ye dhammā khandhasaṅgahena saṅgahitā āyatanasaṅgahena asaṅgahitā dhātusaṅgahena asaṅgahitā, te dhammā katihi khandhehi katihāyatanehi katihi dhātūhi asaṅgahitā? Te dhammā catūhi khandhehi dvīhāyatanehi aṭṭhahi dhātūhi asaṅgahitā."
+        }
+      ]
+    },
+    {
+      "sample_number": 9,
+      "alignment_entry_index": 15,
+      "alignment_indices": [
+        15
+      ],
+      "commentary_span": {
+        "start": 12358,
+        "end": 12787
+      },
+      "commentary_text": " Dutiyapañhe – yasmā yāya kāyaci viññāṇadhātuyā saṅgahito viññāṇakkhandho manāyatanena asaṅgahito nāma natthi, tasmā āyatanasaṅgahena saṅgahitāti vuttaṃ. Ettha pana catūhi khandhehīti rūpādīhi catūhi. Ekādasahāyatanehīti manāyatanavajjehi. Dvādasahi dhātūhīti yathānurūpā cha viññāṇadhātuyo apanetvā sesāhi dvādasahi. Cakkhuviññāṇadhātuyā hi cakkhuviññāṇadhātuyeva saṅgahitā, itarā asaṅgahitā. Sotaviññāṇadhātuādīsupi eseva nayo.",
+      "root_segments": [
+        {
+          "index": 15,
+          "span": {
+            "start": 37635,
+            "end": 38000
+          },
+          "root_text": "Cakkhuviññāṇadhātuyā ye dhammā… sotaviññāṇadhātuyā ye dhammā… ghānaviññāṇadhātuyā ye dhammā… jivhāviññāṇadhātuyā ye dhammā… kāyaviññāṇadhātuyā ye dhammā… manodhātuyā ye dhammā… manoviññāṇadhātuyā ye dhammā khandhasaṅgahena saṅgahitā āyatanasaṅgahena asaṅgahitā dhātusaṅgahena asaṅgahitā…pe… te dhammā catūhi khandhehi ekādasahāyatanehi dvādasahi dhātūhi asaṅgahitā."
+        }
+      ]
+    },
+    {
+      "sample_number": 10,
+      "alignment_entry_index": 17,
+      "alignment_indices": [
+        17
+      ],
+      "commentary_span": {
+        "start": 12978,
+        "end": 13287
+      },
+      "commentary_text": " Catutthapañhe – tīhāyatanehīti rūpāyatanadhammāyatanamanāyatanehi. Tesu hi bhavesu rūpāyatanadhammāyatanavasena dveva āyatanāni tehi saṅgahitāni . Sesāni nava rūpāyatanāni teheva ca dvīhi, manāyatanena cāti tīhi asaṅgahitāni nāma honti. Navahi dhātūhīti rūpadhātudhammadhātūhi saddhiṃ sattahi viññāṇadhātūhi.",
+      "root_segments": [
+        {
+          "index": 17,
+          "span": {
+            "start": 38329,
+            "end": 38532
+          },
+          "root_text": "Asaññābhavena ye dhammā… ekavokārabhavena ye dhammā khandhasaṅgahena saṅgahitā āyatanasaṅgahena asaṅgahitā dhātusaṅgahena asaṅgahitā…pe… te dhammā catūhi khandhehi tīhāyatanehi navahi dhātūhi asaṅgahitā."
+        }
+      ]
+    },
+    {
+      "sample_number": 11,
+      "alignment_entry_index": 27,
+      "alignment_indices": [
+        27
+      ],
+      "commentary_span": {
+        "start": 17536,
+        "end": 17775
+      },
+      "commentary_text": " Chaṭṭhe – sokādittaye vedanāya sadiso. Upāyāsādīsu saṅkhārasadiso. Puna vedanāya vedanākkhandhasadiso, saññāya saññākkhandhasadiso, cetanādīsu saṅkhārakkhandhasadiso vinicchayo. Iminā upāyena sattamapañhādīsupi saṅgahāsaṅgaho veditabboti.",
+      "root_segments": [
+        {
+          "index": 27,
+          "span": {
+            "start": 41547,
+            "end": 42259
+          },
+          "root_text": "Sokena ye dhammā… dukkhena ye dhammā… domanassena ye dhammā… upāyāsena ye dhammā… satipaṭṭhānena ye dhammā… sammappadhānena ye dhammā… appamaññāya ye dhammā… pañcahi indriyehi ye dhammā… pañcahi balehi ye dhammā… sattahi bojjhaṅgehi ye dhammā… ariyena aṭṭhaṅgikena maggena ye dhammā… phassena ye dhammā… vedanāya ye dhammā… saññāya ye dhammā… cetanāya ye dhammā… adhimokkhena ye dhammā… manasikārena ye dhammā… hetūhi dhammehi ye dhammā… hetūhi ceva sahetukehi ca dhammehi ye dhammā… hetūhi ceva hetusampayuttehi ca dhammehi ye dhammā khandhasaṅgahena asaṅgahitā āyatanasaṅgahena saṅgahitā dhātusaṅgahena saṅgahitā…pe… te dhammā asaṅkhataṃ khandhato ṭhapetvā tīhi khandhehi ekenāyatanena ekāya dhātuyā saṅgahitā."
+        }
+      ]
+    },
+    {
+      "sample_number": 12,
+      "alignment_entry_index": 32,
+      "alignment_indices": [
+        32
+      ],
+      "commentary_span": {
+        "start": 21891,
+        "end": 23878
+      },
+      "commentary_text": " Idāni sampayogavippayogapadaṃ bhājetuṃ rūpakkhandhotiādi āraddhaṃ. Tattha yaṃ labbhati yañca na labbhati taṃ sabbaṃ pucchāya gahitaṃ. Vissajjane pana yaṃ na labbhati, taṃ natthīti paṭikkhittaṃ. Catūhi sampayogo, catūhi vippayogo; sabhāgo visabhāgoti hi vacanato catūhi arūpakkhandheheva sabhāgānaṃ ekasantānasmiṃ ekakkhaṇe uppannānaṃ arūpakkhandhānaṃyeva aññamaññaṃ sampayogo labbhati. Rūpadhammānaṃ pana rūpena nibbānena vā, nibbānassa ca rūpena saddhiṃ sampayogo nāma natthi. Tathā rūpanibbānānaṃ arūpakkhandhehi, visabhāgā hi te tesaṃ. Yathā ca arūpakkhandhānaṃ rūpanibbānehi, evaṃ bhinnasantānehi nānākkhaṇikehi arūpadhammehipi saddhiṃ natthiyeva. Tepi hi tesaṃ santānakkhaṇavisabhāgatāya visabhāgāyeva. Ayaṃ pana visabhāgatā saṅgahaṭṭhena virujjhanato saṅgahanaye natthi. Gaṇanūpagamattañhi saṅgahaṭṭho. Sampayoganaye pana atthi, ekuppādatādilakkhaṇañhi sampayogaṭṭhoti. Evamettha yassa ekadhammenapi sampayogalakkhaṇaṃ na yujjhati, tassa pucchāya saṅgahaṃ katvāpi natthīti paṭikkhepo kato. Yassa vippayogalakkhaṇaṃ yujjati, tassa vippayogo dassito. Yāni pana padāni sattasu viññāṇadhātūsu ekāyapi avippayutte rūpena nibbānena vā missakadhamme dīpenti, tāni sabbathāpi idha na yujjantīti na gahitāni. Tesaṃ idamuddānaṃ –\n\"Dhammāyatanaṃ dhammadhātu, dukkhasaccañca jīvitaṃ;\nSaḷāyatanaṃ nāmarūpaṃ, cattāro ca mahābhavā.\n\"Jātijarā ca maraṇaṃ, tikesvekūnavīsati;\nGocchakesu ca paññāsa, aṭṭha cūḷantare padā.\n\"Mahantare pannarasa, aṭṭhārasa tato pare;\nTevīsa padasataṃ etaṃ, sampayoge na labbhatī\"ti.\nDhammāyatanañhi rūpanibbānamissakattā tasmiṃ apariyāpannena viññāṇenapi na sakkā sampayuttanti vattuṃ. Yasmā panettha vedanādayo viññāṇena sampayuttā, tasmā vippayuttantipi na sakkā vattuṃ. Sesesupi eseva nayo. Evaṃ sabbatthāpi etāni na yujjantīti idha na gahitāni. Sesāni khandhādīni yujjantīti tāni gahetvā ekekavasena ca samodhānena ca pañhavissajjanaṃ kataṃ. Tesu pañhesu, paṭhame – ekenāyatanenāti manāyatanena. Kehicīti dhammāyatanadhammadhātupariyāpannehi vedanāsaññāsaṅkhārehi.",
+      "root_segments": [
+        {
+          "index": 32,
+          "span": {
+            "start": 60644,
+            "end": 60850
+          },
+          "root_text": "Rūpakkhandho katihi khandhehi katihāyatanehi katihi dhātūhi sampayuttoti? Natthi. Katihi vippayutto? Catūhi khandhehi ekenāyatanena sattahi dhātūhi vippayutto; ekenāyatanena ekāya dhātuyā kehici vippayutto."
+        }
+      ]
+    },
+    {
+      "sample_number": 13,
+      "alignment_entry_index": 34,
+      "alignment_indices": [
+        34
+      ],
+      "commentary_span": {
+        "start": 24184,
+        "end": 24517
+      },
+      "commentary_text": " Catutthe – ‘katihi khandhehī’tiādiṃ avatvā sampayuttanti natthīti vuttaṃ. Taṃ pana khandhādīnaṃyeva vasena veditabbaṃ. Paratopi evarūpesu pañhesu eseva nayo. Ādipañhasmiñhi sarūpato dassetvā parato pāḷi saṃkhittā. Iminā nayena sabbattha atthayojanā veditabbā. Yattha pana nātipākaṭā bhavissati, tattha naṃ pākaṭaṃ katvāva gamissāma.",
+      "root_segments": [
+        {
+          "index": 34,
+          "span": {
+            "start": 61362,
+            "end": 61553
+          },
+          "root_text": "Cakkhāyatanaṃ…pe… phoṭṭhabbāyatanaṃ…pe… sampayuttanti? Natthi. Katihi vippayuttaṃ ? Catūhi khandhehi ekenāyatanena sattahi dhātūhi vippayuttaṃ; ekenāyatanena ekāya dhātuyā kehici vippayuttaṃ."
+        }
+      ]
+    },
+    {
+      "sample_number": 14,
+      "alignment_entry_index": 37,
+      "alignment_indices": [
+        37
+      ],
+      "commentary_span": {
+        "start": 24930,
+        "end": 25082
+      },
+      "commentary_text": " Sukhindriyādipañhe – tīhīti saññāsaṅkhāraviññāṇehi. Ekāya dhātuyāti kāyaviññāṇadhātuyā, manoviññāṇadhātuyā ca. Chahi dhātūhīti kāyaviññāṇadhātuvajjāhi.",
+      "root_segments": [
+        {
+          "index": 37,
+          "span": {
+            "start": 62963,
+            "end": 63259
+          },
+          "root_text": "Sukhindriyaṃ… dukkhindriyaṃ… somanassindriyaṃ… domanassindriyaṃ tīhi khandhehi ekenāyatanena ekāya dhātuyā sampayuttaṃ; ekenāyatanena ekāya dhātuyā kehici sampayuttaṃ. Katihi vippayuttaṃ? Ekena khandhena dasahāyatanehi soḷasahi dhātūhi vippayuttaṃ; ekenāyatanena ekāya dhātuyā kehici vippayuttaṃ."
+        }
+      ]
+    },
+    {
+      "sample_number": 15,
+      "alignment_entry_index": 40,
+      "alignment_indices": [
+        40
+      ],
+      "commentary_span": {
+        "start": 25391,
+        "end": 25469
+      },
+      "commentary_text": " Kusalapañhe – kusalehi catunnampi khandhānaṃ gahitattā sampayogo paṭikkhitto.",
+      "root_segments": [
+        {
+          "index": 40,
+          "span": {
+            "start": 67829,
+            "end": 68054
+          },
+          "root_text": "Kusalā dhammā… akusalā dhammā katihi khandhehi katihāyatanehi katihi dhātūhi sampayuttāti? Natthi. Katihi vippayuttā ? Ekena khandhena dasahāyatanehi soḷasahi dhātūhi vippayuttā; ekenāyatanena ekāya dhātuyā kehici vippayuttā."
+        }
+      ]
+    },
+    {
+      "sample_number": 16,
+      "alignment_entry_index": 42,
+      "alignment_indices": [
+        42
+      ],
+      "commentary_span": {
+        "start": 25659,
+        "end": 26362
+      },
+      "commentary_text": " Nevavipākanavipākadhammadhammapañhe – pañcahīti cakkhuviññāṇādīhi. Anupādinnaanupādāniyapañhe – chahīti manoviññāṇadhātuvajjāhi. Savitakkasavicārapañhe – pannarasahīti pañcahi viññāṇehi saddhiṃ rūpadhātūhi. Avitakkavicāramattapañhe – ekena khandhenātiādi saṅkhārakkhandhavaseneva veditabbaṃ. Dutiyajjhānavicārañhi ṭhapetvā sesā avitakkavicāramattā nāma. Pītiṃ ṭhapetvā sesā pītisahagatā. Tattha vicāro vicārena, pīti ca pītiyā na sampayuttāti saṅkhārakkhandhadhammāyatanadhammadhātūsu kehici sampayuttā nāma. Soḷasahīti dhammadhātumanoviññāṇadhātuvajjāheva. Avitakkaavicārapañhe – ekāya dhātuyāti manodhātuyā. Sukhasahagatā upekkhāsahagatā ca vedanāttike vuttāva. Dassanenapahātabbādayo kusalasadisāva.",
+      "root_segments": [
+        {
+          "index": 42,
+          "span": {
+            "start": 68944,
+            "end": 69115
+          },
+          "root_text": "Nevavipākanavipākadhammadhammā… anupādinnupādāniyā dhammā…pe… sampayuttāti ? Natthi. Katihi vippayuttā? Na kehici khandhehi na kehici āyatanehi pañcahi dhātūhi vippayuttā."
+        }
+      ]
+    },
+    {
+      "sample_number": 17,
+      "alignment_entry_index": 43,
+      "alignment_indices": [
+        43
+      ],
+      "commentary_span": {
+        "start": 26363,
+        "end": 26643
+      },
+      "commentary_text": " Parittārammaṇaṃ vipākadhammasadisaṃ. Ekāya dhātuyāti dhammadhātuyā. Kehicīti ye tattha parittārammaṇā na honti, tehi. Dhammadhātu pana parittārammaṇānaṃ channaṃ cittuppādānaṃ vasena catūhi khandhehi saṅgahitattā paṭhamapaṭikkhepameva bhajati. Mahaggatārammaṇādayo kusalasadisāva.",
+      "root_segments": [
+        {
+          "index": 43,
+          "span": {
+            "start": 70834,
+            "end": 71005
+          },
+          "root_text": "Parittārammaṇā dhammā…pe… sampayuttāti? Natthi. Katihi vippayuttā? Ekena khandhena dasahāyatanehi dasahi dhātūhi vippayuttā; ekenāyatanena ekāya dhātuyā kehici vippayuttā."
+        }
+      ]
+    },
+    {
+      "sample_number": 18,
+      "alignment_entry_index": 47,
+      "alignment_indices": [
+        47
+      ],
+      "commentary_span": {
+        "start": 28643,
+        "end": 29050
+      },
+      "commentary_text": " Idāni vippayuttenasampayuttapadaṃ bhājetuṃ rūpakkhandhenātiādi āraddhaṃ. Tattha sabbāpi pucchā moghapucchāva . Rūpakkhandhena hi vippayuttā nāma cattāro khandhā, tesaṃ aññehi sampayogo natthi. Vedanākkhandhena vippayuttaṃ rūpaṃ nibbānañca, tassa ca kenaci sampayogo natthi. Evaṃ sabbapadesu. Vippayuttānaṃ pana sampayogābhāvo veditabbo. Iti pucchāya moghattā sabbavissajjanesu natthi natthiicceva vuttanti.",
+      "root_segments": [
+        {
+          "index": 47,
+          "span": {
+            "start": 82270,
+            "end": 82385
+          },
+          "root_text": "Rūpakkhandhena ye dhammā vippayuttā, te dhammā katihi khandhehi katihāyatanehi katihi dhātūhi sampayuttāti? Natthi."
+        }
+      ]
+    },
+    {
+      "sample_number": 19,
+      "alignment_entry_index": 50,
+      "alignment_indices": [
+        50
+      ],
+      "commentary_span": {
+        "start": 31215,
+        "end": 32126
+      },
+      "commentary_text": " Idāni saṅgahitenasampayuttavippayuttapadaṃ bhājetuṃ samudayasaccenātiādi āraddhaṃ. Tattha ye saṅgahitenasaṅgahitapadaniddese samudayasaccādayova dhammā uddhaṭā, sabbapucchāsu teyeva uddhaṭā. Sadisavissajjanānaṃ pana ekato gahitattā padāni aññāya paṭipāṭiyā āgatāni. Tattha ye dhammā pucchāya uddhaṭapadena khandhādisaṅgahena saṅgahitā, tesaṃ yehi sampayogo vā vippayogo vā hoti, tesaṃ vasena khandhādivibhāgo veditabbo.\nTatrāyaṃ nayo – samudayasaccena tāva saṅkhārakkhandhapariyāpannā dhammā khandhādisaṅgahena saṅgahitā. Te ca sesehi tīhi khandhehi, ekena manāyatanena, sattahi viññāṇadhātūhi, saṅkhārakkhandhe dhammāyatanadhammadhātūsu ca ṭhapetvā taṇhaṃ sesehi sampayuttattā kehici sampayuttā nāma. Ekena pana rūpakkhandhena, dasahi rūpāyatanehi, rūpadhātūhi ca vippayuttā, ekasmiṃ dhammāyatane dhammadhātuyā ca, rūpanibbānehi vippayuttattā kehici vippayuttā nāma. Iminā upāyena sabbattha attho veditabboti.",
+      "root_segments": [
+        {
+          "index": 50,
+          "span": {
+            "start": 107660,
+            "end": 108112
+          },
+          "root_text": "Samudayasaccena ye dhammā… maggasaccena ye dhammā khandhasaṅgahena saṅgahitā āyatanasaṅgahena saṅgahitā dhātusaṅgahena saṅgahitā, te dhammā katihi khandhehi katihāyatanehi katihi dhātūhi sampayuttā? Te dhammā tīhi khandhehi ekenāyatanena sattahi dhātūhi sampayuttā; ekena khandhena ekenāyatanena ekāya dhātuyā kehici sampayuttā. Katihi vippayuttā? Ekena khandhena dasahāyatanehi dasahi dhātūhi vippayuttā; ekenāyatanena ekāya dhātuyā kehici vippayuttā."
+        }
+      ]
+    },
+    {
+      "sample_number": 20,
+      "alignment_entry_index": 51,
+      "alignment_indices": [
+        51
+      ],
+      "commentary_span": {
+        "start": 32237,
+        "end": 32843
+      },
+      "commentary_text": " Idāni sampayuttenasaṅgahitāsaṅgahitapadaṃ bhājetuṃ vedanākkhandhenātiādi āraddhaṃ. Tattha ye sampayuttenasampayuttapadaniddese vedanākkhandhādayo dhammā uddhaṭā, sabbapucchāsu teyeva uddhaṭā. Tattha ye dhammā pucchāya uddhaṭapadena sampayuttā, tesaṃ yehi saṅgaho vā asaṅgaho vā hoti, tesaṃ vasena khandhādibhedo veditabbo.\nTatrāyaṃ nayo – vedanākkhandho hi saññādīhi sampayutto. Te saññādayo tīhi saññādikkhandhehi, dvīhi dhammāyatanamanāyatanehi, dhammadhātuyā ceva, sattahi ca viññāṇadhātūhīti aṭṭhahi dhātūhi saṅgahitā, sesāhi khandhāyatanadhātūhi asaṅgahitā. Iminā upāyena sabbattha attho veditabboti.",
+      "root_segments": [
+        {
+          "index": 51,
+          "span": {
+            "start": 112240,
+            "end": 112546
+          },
+          "root_text": "Vedanākkhandhena ye dhammā… saññākkhandhena ye dhammā… saṅkhārakkhandhena ye dhammā sampayuttā, te dhammā katihi khandhehi katihāyatanehi katihi dhātūhi saṅgahitā? Te dhammā tīhi khandhehi dvīhāyatanehi aṭṭhahi dhātūhi saṅgahitā. Katihi asaṅgahitā? Dvīhi khandhehi dasahāyatanehi dasahi dhātūhi asaṅgahitā."
+        }
+      ]
+    }
+  ]
+}

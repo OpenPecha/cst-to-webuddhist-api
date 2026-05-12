@@ -1,0 +1,450 @@
+{
+  "type": "alignment",
+  "target_manifestation_id": "o3mJ9TmToy9iK5CEHnerc",
+  "target_annotation": [
+    {
+      "span": {
+        "start": 136,
+        "end": 573
+      },
+      "index": 0
+    },
+    {
+      "span": {
+        "start": 603,
+        "end": 989
+      },
+      "index": 1
+    },
+    {
+      "span": {
+        "start": 1018,
+        "end": 1082
+      },
+      "index": 2
+    },
+    {
+      "span": {
+        "start": 1110,
+        "end": 1129
+      },
+      "index": 3
+    },
+    {
+      "span": {
+        "start": 1155,
+        "end": 1199
+      },
+      "index": 4
+    },
+    {
+      "span": {
+        "start": 1282,
+        "end": 1506
+      },
+      "index": 5
+    },
+    {
+      "span": {
+        "start": 9712,
+        "end": 9955
+      },
+      "index": 6
+    },
+    {
+      "span": {
+        "start": 14716,
+        "end": 14863
+      },
+      "index": 7
+    },
+    {
+      "span": {
+        "start": 16517,
+        "end": 16710
+      },
+      "index": 8
+    },
+    {
+      "span": {
+        "start": 37306,
+        "end": 37634
+      },
+      "index": 9
+    },
+    {
+      "span": {
+        "start": 39699,
+        "end": 40076
+      },
+      "index": 10
+    },
+    {
+      "span": {
+        "start": 44526,
+        "end": 44892
+      },
+      "index": 11
+    },
+    {
+      "span": {
+        "start": 46836,
+        "end": 47187
+      },
+      "index": 12
+    },
+    {
+      "span": {
+        "start": 47809,
+        "end": 48103
+      },
+      "index": 13
+    },
+    {
+      "span": {
+        "start": 60644,
+        "end": 60850
+      },
+      "index": 14
+    },
+    {
+      "span": {
+        "start": 62242,
+        "end": 62518
+      },
+      "index": 15
+    },
+    {
+      "span": {
+        "start": 68944,
+        "end": 69115
+      },
+      "index": 16
+    },
+    {
+      "span": {
+        "start": 79227,
+        "end": 79596
+      },
+      "index": 17
+    },
+    {
+      "span": {
+        "start": 79995,
+        "end": 80146
+      },
+      "index": 18
+    },
+    {
+      "span": {
+        "start": 82270,
+        "end": 82385
+      },
+      "index": 19
+    },
+    {
+      "span": {
+        "start": 83020,
+        "end": 83334
+      },
+      "index": 20
+    },
+    {
+      "span": {
+        "start": 91905,
+        "end": 92162
+      },
+      "index": 21
+    },
+    {
+      "span": {
+        "start": 107660,
+        "end": 108112
+      },
+      "index": 22
+    },
+    {
+      "span": {
+        "start": 112240,
+        "end": 112546
+      },
+      "index": 23
+    },
+    {
+      "span": {
+        "start": 120953,
+        "end": 121337
+      },
+      "index": 24
+    },
+    {
+      "span": {
+        "start": 127978,
+        "end": 128227
+      },
+      "index": 25
+    }
+  ],
+  "alignment_annotation": [
+    {
+      "span": {
+        "start": 1881,
+        "end": 2411
+      },
+      "index": 0,
+      "alignment_index": [
+        0
+      ]
+    },
+    {
+      "span": {
+        "start": 2446,
+        "end": 3929
+      },
+      "index": 1,
+      "alignment_index": [
+        1
+      ]
+    },
+    {
+      "span": {
+        "start": 3963,
+        "end": 5341
+      },
+      "index": 2,
+      "alignment_index": [
+        2
+      ]
+    },
+    {
+      "span": {
+        "start": 5374,
+        "end": 5924
+      },
+      "index": 3,
+      "alignment_index": [
+        3
+      ]
+    },
+    {
+      "span": {
+        "start": 5955,
+        "end": 9867
+      },
+      "index": 4,
+      "alignment_index": [
+        4
+      ]
+    },
+    {
+      "span": {
+        "start": 9994,
+        "end": 11572
+      },
+      "index": 5,
+      "alignment_index": [
+        5
+      ]
+    },
+    {
+      "span": {
+        "start": 11603,
+        "end": 12035
+      },
+      "index": 6,
+      "alignment_index": [
+        6
+      ]
+    },
+    {
+      "span": {
+        "start": 12070,
+        "end": 12672
+      },
+      "index": 7,
+      "alignment_index": [
+        7
+      ]
+    },
+    {
+      "span": {
+        "start": 12673,
+        "end": 13408
+      },
+      "index": 8,
+      "alignment_index": [
+        8
+      ]
+    },
+    {
+      "span": {
+        "start": 13510,
+        "end": 22063
+      },
+      "index": 9,
+      "alignment_index": [
+        9
+      ]
+    },
+    {
+      "span": {
+        "start": 22171,
+        "end": 23988
+      },
+      "index": 10,
+      "alignment_index": [
+        10
+      ]
+    },
+    {
+      "span": {
+        "start": 24097,
+        "end": 26328
+      },
+      "index": 11,
+      "alignment_index": [
+        11
+      ]
+    },
+    {
+      "span": {
+        "start": 26439,
+        "end": 28602
+      },
+      "index": 12,
+      "alignment_index": [
+        12
+      ]
+    },
+    {
+      "span": {
+        "start": 28603,
+        "end": 29618
+      },
+      "index": 13,
+      "alignment_index": [
+        13
+      ]
+    },
+    {
+      "span": {
+        "start": 29726,
+        "end": 33731
+      },
+      "index": 14,
+      "alignment_index": [
+        14
+      ]
+    },
+    {
+      "span": {
+        "start": 33732,
+        "end": 35081
+      },
+      "index": 15,
+      "alignment_index": [
+        15
+      ]
+    },
+    {
+      "span": {
+        "start": 35082,
+        "end": 36835
+      },
+      "index": 16,
+      "alignment_index": [
+        16
+      ]
+    },
+    {
+      "span": {
+        "start": 36943,
+        "end": 38601
+      },
+      "index": 17,
+      "alignment_index": [
+        17
+      ]
+    },
+    {
+      "span": {
+        "start": 38602,
+        "end": 38903
+      },
+      "index": 18,
+      "alignment_index": [
+        18
+      ]
+    },
+    {
+      "span": {
+        "start": 39015,
+        "end": 39476
+      },
+      "index": 19,
+      "alignment_index": [
+        19
+      ]
+    },
+    {
+      "span": {
+        "start": 39587,
+        "end": 40543
+      },
+      "index": 20,
+      "alignment_index": [
+        20
+      ]
+    },
+    {
+      "span": {
+        "start": 40653,
+        "end": 40935
+      },
+      "index": 21,
+      "alignment_index": [
+        21
+      ]
+    },
+    {
+      "span": {
+        "start": 41057,
+        "end": 41613
+      },
+      "index": 22,
+      "alignment_index": [
+        22
+      ]
+    },
+    {
+      "span": {
+        "start": 41746,
+        "end": 41831
+      },
+      "index": 23,
+      "alignment_index": [
+        23
+      ]
+    },
+    {
+      "span": {
+        "start": 41964,
+        "end": 43650
+      },
+      "index": 24,
+      "alignment_index": [
+        24
+      ]
+    },
+    {
+      "span": {
+        "start": 43783,
+        "end": 44500
+      },
+      "index": 25,
+      "alignment_index": [
+        25
+      ]
+    }
+  ]
+}
